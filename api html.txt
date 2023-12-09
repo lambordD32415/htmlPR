@@ -1,0 +1,71 @@
+<html> <!-- html is for letting the pc know that's a html file -->
+	
+	<head> <!-- head is for deviding the page to head and then the other -->
+		<title> its the title of the first page </title>
+	</head>
+
+	<body> <!-- body the same as head but devides to body -->
+		<p> this is a paragrph </p>
+		<img src = "image.jpg" alt = "image not found"> <!-- adding an image for some source you give and alt for alternative if it wont work-->
+		<h1>
+			 this is a heading 
+		</h1> <!-- the size of heading from biggest h1 to the smallest h6 -->
+		<!-- this is a comment -->
+		<hr> <!-- its just a horizontal line --> 
+		<p> 
+			first line <br/> second line 
+		</p> <!-- <br/> is starting an new line without adding new p -->
+		<p> 
+			<b> bold text </b> <br/>
+			<big> big text </big> <br/>
+			<i> italic text </i> <br/>
+			<small> small text </small> <br/>
+			<strong> strong text </strong> <br/>
+			<sub> subscribtion text </sub> <br/>
+			<sup> superscripted text </sup> <br/>
+			<ins> inserted text </ins> <br/>
+			<del> deleted text </del> <br/>
+		</p>
+		<p>
+			attributes <br/>
+			<hr width = "50px" /> <br/>
+			<hr width = "50%" /> <br/> <!-- those two modify the width of an element using pixels(px) ot percentages(%) -->
+			<h1 align = "right"> aligned to right  </h1> <!-- the align attribute changes the place of the element (left, center, right) -->
+			<hr width = "30%" align = "left" /> <!-- you can also mix attributes -->
+			
+		</p>
+		<img src = "C:\apps\programing\api\IMG_4515.jpg" height = "240px" width = "413px" border = "2px" alt = "must work 100%"  /> 
+			<!-- so here i adding an image and setting the height, width(using pixels "px" ot percentages "%") and the border(using just pixels"px") of it  -->	
+		<ol> <!-- an order list -->
+			<li> list 1 </li> <!-- the list it self -->
+			<li> list 2 </li>
+			<li> list 3 </li>
+		</ol>
+		<ul> <!-- an unoredered list -->
+			<li> list 1 </li>
+			<li> list 2 </li>
+			<li> list 3 </li>
+		</ul>
+		
+
+		<table border = "5" align = "center" > <!-- adding a table with border 5px width and aligned to center -->
+		<tr> <!-- table row -->
+		<th bgcolor = "gray" >row topic</th> <!-- th for table head bgcolor attribute changing the color of the cell -->
+		<td>table data row 1 cell 1</td> <!-- td for table data is a cell in the table -->
+		<td>table data row 1 cell 2</td>
+		</tr>
+		<tr>
+		<th>row topic 2</th>
+		<td colspan = "2" bgcolor = "yellow"> table data row 2 cell 1 </td> <!-- colspan mix the number of cells you give -->
+		<td>table data row 2 cell 2</td>
+		</tr>
+		</table>
+		<a href="https://www.youtube.com/@daniel_lambord9538" target="_blank"> daniel's youtube channel </a>
+		<!-- a is for adding link and href is for adding link from the internet and the target is for where youll open the link in this case (_blank) its openning the link in a new window and between the to <a> tags its what should be the link it self -->
+		
+	</body>
+
+</html>
+
+
+
